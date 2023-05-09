@@ -1,0 +1,17 @@
+h1, h3 {
+    line-height: 10px !important;
+}
+
+.header {
+    padding: 50px;
+}
+
+a:hover {
+   color: #fffc58;
+   font-weight: bold;
+   transition: 0.3s;
+}
+
+a {
+    transition: 0.2s;
+}
