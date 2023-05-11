@@ -3,13 +3,16 @@ h1, h3 {
 }
 
 .header {
-    padding: 50px;
+    padding: 70px;
 }
 
 a:hover {
    font-weight: bold;
 }
 
+.card-content {
+    height: 170px
+}
 
 @media only screen and (max-width: 600px) {
     h1 {
