@@ -15,9 +15,18 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 2.8rem !important;
+    h1, h3 {
+        line-height: 1px !important;
     }
+    h1 {
+        font-size: 2rem !important;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1.8rem !important;
+    }
+
 
     .s6 {
         width: 100% !important;
