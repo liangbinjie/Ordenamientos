@@ -3,7 +3,7 @@ def selectionSort(lista):
         minimo=i
         for j in range(i+1,len(lista)):
             if lista[minimo]>lista[j]:
-                minimo=j#2 2 4
+                minimo=j
             aux=lista[minimo]
             print(lista)
         lista[minimo]=lista[i]
