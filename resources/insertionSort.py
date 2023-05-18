@@ -5,6 +5,7 @@ def insertionSort(lista):
         while j>=0 and lista[j]>v:
             lista[j+1]=lista[j]
             j=j-1
+            print(lista)
         lista[j+1]=v
-    #print(lista)
+        print(lista)
     return lista

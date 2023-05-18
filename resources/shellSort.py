@@ -8,8 +8,10 @@ def ordenShell(lista):
                     lista[j]=lista[j-inc]
                     j=j-inc 
                lista[j]=temp
+               print(lista)
           if (inc==2) :
                inc=1
           else :
                inc=int(inc/2.5)
+          print(lista)
      print(lista)

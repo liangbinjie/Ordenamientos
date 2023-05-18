@@ -4,8 +4,9 @@ def selectionSort(lista):
         for j in range(i+1,len(lista)):
             if lista[minimo]>lista[j]:
                 minimo=j#2 2 4
-             aux=lista[minimo]
+            aux=lista[minimo]
+            print(lista)
         lista[minimo]=lista[i]
         lista[i]=aux
-    #print(lista)
+        print(lista)
     return lista
