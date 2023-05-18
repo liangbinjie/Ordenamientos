@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BinjieLiang | Ordenamientos</title>
+    <link rel="shortcut icon" href="../logo.svg" type="image/x-icon">
+
+    <!-- MATERIALIZE CSS -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="../main.css">
+
+    <!-- DEVICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="../index.html" class="brand-logo center-align"><img src="../logo.svg" alt="" width="65px"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="referencias.html">Referencias</a></li>
+                    <li><a href="https://github.com/liangbinjie/Ordenamientos/tree/main/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="nav-content red lighten-2">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a href="insertionSort.html">Insercion</a></li>
+                    <li class="tab"><a href="selectionSort.html">Seleccion</a></li>
+                    <li class="tab"><a href="bubbleSort.html">Burbuja</a></li>
+                    <li class="tab"><a href="radixSort.html">Radix</a></li>
+                    <li class="tab"><a href="shakeSort.html">Shake</a></li>
+                    <li class="tab"><a href="quickSort.html">QuickSort</a></li>
+                    <li class="tab"><a href="mergeSort.html">Merge</a></li>
+                    <li class="tab"><a href="busquedaB.html">Busqueda Binaria</a></li>
+                    <li class="tab"><a href="busquedaS.html">Busqueda Secuencial</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <h2>Búsqueda Binaria</h2>
+            <h4>Acerca de:</h4>
+            <p>La búsqueda binaria es un algoritmo de búsqueda eficiente utilizado para encontrar un elemento específico
+                en una lista ordenada. Funciona dividiendo repetidamente la lista por la mitad y comparando el elemento
+                buscado con el elemento en el punto medio. Si el elemento es igual, se devuelve su posición. Si el
+                elemento es menor, la búsqueda se realiza en la mitad inferior de la lista. Si el elemento es mayor, la
+                búsqueda se realiza en la mitad superior. Este proceso se repite hasta encontrar el elemento o
+                determinar que no está presente en la lista.</p>
+            <h4>Complejidad:</h4>
+            <p>La complejidad temporal de la búsqueda binaria es de O(log n), donde "n" es el número de elementos en la
+                lista. En cada paso, la lista se reduce a la mitad, lo que hace que la búsqueda sea muy eficiente.
+                Comparado con la búsqueda lineal, que tiene una complejidad de O(n) en el peor caso, la búsqueda binaria
+                es considerablemente más rápida para listas grandes. Sin embargo, la búsqueda binaria requiere que la
+                lista esté ordenada previamente, lo que puede ser un requisito adicional a considerar.</p>
+            <img class="responsive-img" src="img/busquedaB.png" alt="">
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Binjie Liang</h5>
+                    <p class="grey-text text-lighten-4">Tarea de Ordenamientos realizado en el curso Introduccion a la
+                        Programacion (IC1802) del Instituto Tecnologico de Costa Rica.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Tipos de ordenamiento</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="static/insertionSort.html">Insercion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="static/selectionSort.html">Seleccion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="static/bubbleSort.html">Burbuja</a></li>
+                        <li><a class="grey-text text-lighten-3" href="static/radixSort.html">Radix</a></li>
+                        <li><a class="grey-text text-lighten-3" href="static/shakeSort.html">Shake</a></li>
+                        <li><a class="grey-text text-lighten-3" href="static/quickSort.html">QuickSort</a></li>
+                        <li><a class="grey-text text-lighten-3" href="static/mergeSort.html">Merge</a></li>
+                        <li><a class="grey-text text-lighten-3" href="static/busquedaB.html">Busqueda Binaria</a></li>
+                        <li><a class="grey-text text-lighten-3" href="static/busquedaS.html">Busqueda Secuencial</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2023
+                <a class="grey-text text-lighten-4 right" href="https://github.com/liangbinjie">
+                    <i class="devicon-github-original colored"></i>
+                    My Github</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

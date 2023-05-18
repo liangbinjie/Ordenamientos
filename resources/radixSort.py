@@ -55,7 +55,6 @@ def radixSort(lista):
                     l9 += [num]
             lista = l0 + l1 + l2 + l3 + l4 + l5+l6+l7+l8+l9
             i+=1
-            print(lista)
             print("Lista 0: ", l0)
             print("Lista 1: ", l1)
             print("Lista 2: ", l2)
@@ -66,7 +65,8 @@ def radixSort(lista):
             print("Lista 7: ", l7)
             print("Lista 8: ", l8)
             print("Lista 9: ", l9)
+            print(lista)
 
 
-        #print(lista) 
+        print(lista) 
         return lista

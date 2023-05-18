@@ -6,11 +6,13 @@ def shakeSort(lista):
             if lista[j] < lista[j-1]:
                 lista[j], lista[j-1] = lista[j-1], lista[j]
                 is_swapped = True
+                print(lista)
 
         for j in range(i):
             if lista[j] > lista[j+1]:
                 lista[j], lista[j+1] = lista[j+1], lista[j]
                 is_swapped = True
-        
+                print(lista)
+        print(lista)
         if not is_swapped:
             return lista
