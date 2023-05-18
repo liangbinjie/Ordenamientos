@@ -37,6 +37,7 @@
                     <li class="tab"><a href="bubbleSort.html">Burbuja</a></li>
                     <li class="tab"><a href="radixSort.html">Radix</a></li>
                     <li class="tab"><a href="shakeSort.html">Shake</a></li>
+                    <li class="tab"><a href="shellSort.html">Shell</a></li>
                     <li class="tab"><a href="quickSort.html">QuickSort</a></li>
                     <li class="tab"><a href="mergeSort.html">Merge</a></li>
                     <li class="tab"><a href="busquedaB.html">Busqueda Binaria</a></li>
@@ -51,18 +52,28 @@
 
             <h2>Búsqueda Binaria</h2>
             <h4>Acerca de:</h4>
-            <p>La búsqueda binaria es un algoritmo de búsqueda eficiente utilizado para encontrar un elemento específico
-                en una lista ordenada. Funciona dividiendo repetidamente la lista por la mitad y comparando el elemento
-                buscado con el elemento en el punto medio. Si el elemento es igual, se devuelve su posición. Si el
-                elemento es menor, la búsqueda se realiza en la mitad inferior de la lista. Si el elemento es mayor, la
-                búsqueda se realiza en la mitad superior. Este proceso se repite hasta encontrar el elemento o
-                determinar que no está presente en la lista.</p>
-            <h4>Complejidad:</h4>
-            <p>La complejidad temporal de la búsqueda binaria es de O(log n), donde "n" es el número de elementos en la
-                lista. En cada paso, la lista se reduce a la mitad, lo que hace que la búsqueda sea muy eficiente.
-                Comparado con la búsqueda lineal, que tiene una complejidad de O(n) en el peor caso, la búsqueda binaria
-                es considerablemente más rápida para listas grandes. Sin embargo, la búsqueda binaria requiere que la
-                lista esté ordenada previamente, lo que puede ser un requisito adicional a considerar.</p>
+            <p>La búsqueda binaria es un algoritmo eficiente para encontrar un elemento específico en una lista
+                ordenada. Se basa en la técnica de dividir y conquistar, donde se divide repetidamente la lista en dos
+                mitades y se busca en la mitad correcta según el valor objetivo. La búsqueda binaria es muy eficiente
+                para listas grandes, ya que reduce el espacio de búsqueda a la mitad en cada iteración.</p>
+            <h4>Autor y año de creación:</h4>
+            <p>La búsqueda binaria se remonta a los primeros trabajos en matemáticas y algoritmos. Fue descrita en
+                detalle por primera vez por el matemático alemán Julius Wilhelm Richard Dedekind en 1901. Desde
+                entonces, ha sido ampliamente estudiada y aplicada en el campo de la informática.</p>
+            <h4>Duración:</h4>
+            <p>La duración de la búsqueda binaria tiene una complejidad temporal de O(log n), donde "n" es el número de
+                elementos en la lista. En cada iteración, se divide la lista a la mitad y se descarta la mitad
+                incorrecta en función de si el valor objetivo es mayor o menor que el valor medio. Este proceso se
+                repite hasta que se encuentra el elemento objetivo o se determina que no existe en la lista. Debido a la
+                reducción exponencial en el espacio de búsqueda, la búsqueda binaria es mucho más rápida que los
+                algoritmos de búsqueda lineal en listas ordenadas.</p>
+            <h4>Eficiencia:</h4>
+            <p>La búsqueda binaria es altamente eficiente y se considera uno de los algoritmos de búsqueda más rápidos
+                para listas ordenadas. Su complejidad temporal de O(log n) permite buscar elementos en listas
+                extremadamente grandes en un número relativamente bajo de comparaciones. Sin embargo, la búsqueda
+                binaria solo se puede aplicar a listas ordenadas, por lo que si la lista no está ordenada, primero se
+                debe realizar un proceso de ordenamiento. La eficiencia de la búsqueda binaria es particularmente útil
+                en casos donde la lista no cambia con frecuencia y se realizan múltiples búsquedas.</p>
             <img class="responsive-img" src="img/busquedaB.png" alt="">
         </div>
     </main>
@@ -77,15 +88,16 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Tipos de ordenamiento</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="static/insertionSort.html">Insercion</a></li>
-                        <li><a class="grey-text text-lighten-3" href="static/selectionSort.html">Seleccion</a></li>
-                        <li><a class="grey-text text-lighten-3" href="static/bubbleSort.html">Burbuja</a></li>
-                        <li><a class="grey-text text-lighten-3" href="static/radixSort.html">Radix</a></li>
-                        <li><a class="grey-text text-lighten-3" href="static/shakeSort.html">Shake</a></li>
-                        <li><a class="grey-text text-lighten-3" href="static/quickSort.html">QuickSort</a></li>
-                        <li><a class="grey-text text-lighten-3" href="static/mergeSort.html">Merge</a></li>
-                        <li><a class="grey-text text-lighten-3" href="static/busquedaB.html">Busqueda Binaria</a></li>
-                        <li><a class="grey-text text-lighten-3" href="static/busquedaS.html">Busqueda Secuencial</a>
+                        <li><a class="grey-text text-lighten-3" href="insertionSort.html">Insercion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="selectionSort.html">Seleccion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="bubbleSort.html">Burbuja</a></li>
+                        <li><a class="grey-text text-lighten-3" href="radixSort.html">Radix</a></li>
+                        <li><a class="grey-text text-lighten-3" href="shakeSort.html">Shake</a></li>
+                        <li><a class="grey-text text-lighten-3" href="shellSort.html">Shell</a></li>
+                        <li><a class="grey-text text-lighten-3" href="quickSort.html">QuickSort</a></li>
+                        <li><a class="grey-text text-lighten-3" href="mergeSort.html">Merge</a></li>
+                        <li><a class="grey-text text-lighten-3" href="busquedaB.html">Busqueda Binaria</a></li>
+                        <li><a class="grey-text text-lighten-3" href="busquedaS.html">Busqueda Secuencial</a>
                         </li>
                     </ul>
                 </div>

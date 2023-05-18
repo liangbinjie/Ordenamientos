@@ -37,6 +37,7 @@
                     <li class="tab"><a href="bubbleSort.html">Burbuja</a></li>
                     <li class="tab"><a href="radixSort.html">Radix</a></li>
                     <li class="tab"><a href="shakeSort.html">Shake</a></li>
+                    <li class="tab"><a href="shellSort.html">Shell</a></li>
                     <li class="tab"><a href="quickSort.html">QuickSort</a></li>
                     <li class="tab"><a href="mergeSort.html">Merge</a></li>
                     <li class="tab"><a href="busquedaB.html">Busqueda Binaria</a></li>
@@ -49,18 +50,31 @@
     <main>
         <div class="container">
 
-            <h2>Ordenamiento QuickSort</h2>
+            <h2>Quicksort</h2>
             <h4>Acerca de:</h4>
-            <p>El algoritmo de ordenamiento QuickSort es un método de ordenamiento eficiente y ampliamente utilizado. Se
-                basa en el concepto de dividir y conquistar, dividiendo la lista en subconjuntos más pequeños,
-                ordenándolos y luego combinándolos para obtener la lista ordenada final.</p>
+            <p>El Quicksort es un algoritmo de ordenamiento eficiente que utiliza el enfoque de dividir y conquistar.
+                Fue desarrollado por Tony Hoare en 1959 y se basa en el principio de particionar la lista en
+                subconjuntos más pequeños, ordenarlos de forma recursiva y combinarlos para obtener la lista ordenada
+                final. El Quicksort es ampliamente utilizado debido a su eficiencia y rendimiento en la mayoría de los
+                casos, aunque su rendimiento puede degradarse en situaciones de peor caso.</p>
+            <h4>Autor y año de creación:</h4>
+            <p>El Quicksort fue desarrollado por el científico de la computación británico Tony Hoare en 1959. Desde
+                entonces, se ha convertido en uno de los algoritmos de ordenamiento más utilizados y estudiados.</p>
             <h4>Duración:</h4>
-            <p>La duración del QuickSort depende en gran medida de la elección del pivote y de cómo se particiona la
-                lista. En el mejor caso, donde la lista se divide uniformemente en cada paso, su complejidad temporal es
-                de O(n log<sub>(n)</sub>), donde "n" es el número de elementos en la lista. Sin embargo, en el peor caso, donde el
-                pivote elegido siempre es el elemento más grande o más pequeño, la complejidad puede ser de O(n<sup>2</sup>). En
-                promedio, el QuickSort ofrece un buen rendimiento y se considera uno de los algoritmos de ordenamiento
-                más eficientes.</p>
+            <p>La duración del Quicksort depende del tamaño de la lista y de la elección del pivote. En el mejor y el
+                caso promedio, su complejidad temporal es de O(n log n), donde "n" es el número de elementos en la
+                lista. Sin embargo, en el peor caso, cuando el pivote elegido siempre es el elemento más pequeño o más
+                grande, la complejidad puede ser de O(n<sup>2</sup>). Para evitar el peor caso, se utilizan diversas
+                técnicas para seleccionar un pivote de forma adecuada, como el pivote aleatorio o el pivote de la
+                mediana de tres. Además, el Quicksort tiene una complejidad espacial de O(log n) debido a la recursión.
+            </p>
+            <h4>Eficiencia:</h4>
+            <p>El Quicksort es generalmente eficiente y tiene un buen rendimiento en la mayoría de los casos. Su
+                complejidad temporal promedio de O(n log n) lo hace adecuado para ordenar listas grandes. Sin embargo,
+                su rendimiento puede degradarse en casos específicos, como cuando la lista ya está ordenada o cuando
+                contiene muchos elementos repetidos. A pesar de esto, el Quicksort sigue siendo ampliamente utilizado
+                debido a su eficiencia, simplicidad y capacidad para ser implementado de manera recursiva o iterativa.
+            </p>
             <img class="responsive-img" src="img/quick.png" alt="">
         </div>
     </main>
@@ -80,6 +94,7 @@
                         <li><a class="grey-text text-lighten-3" href="bubbleSort.html">Burbuja</a></li>
                         <li><a class="grey-text text-lighten-3" href="radixSort.html">Radix</a></li>
                         <li><a class="grey-text text-lighten-3" href="shakeSort.html">Shake</a></li>
+                        <li><a class="grey-text text-lighten-3" href="shellSort.html">Shell</a></li>
                         <li><a class="grey-text text-lighten-3" href="quickSort.html">QuickSort</a></li>
                         <li><a class="grey-text text-lighten-3" href="mergeSort.html">Merge</a></li>
                         <li><a class="grey-text text-lighten-3" href="busquedaB.html">Busqueda Binaria</a></li>

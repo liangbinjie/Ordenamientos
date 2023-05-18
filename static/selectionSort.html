@@ -37,6 +37,7 @@
                     <li class="tab"><a href="bubbleSort.html">Burbuja</a></li>
                     <li class="tab"><a href="radixSort.html">Radix</a></li>
                     <li class="tab"><a href="shakeSort.html">Shake</a></li>
+                    <li class="tab"><a href="shellSort.html">Shell</a></li>
                     <li class="tab"><a href="quickSort.html">QuickSort</a></li>
                     <li class="tab"><a href="mergeSort.html">Merge</a></li>
                     <li class="tab"><a href="busquedaB.html">Busqueda Binaria</a></li>
@@ -49,19 +50,30 @@
     <main>
         <div class="container">
 
+
             <h2>Ordenamiento por Selección</h2>
             <h4>Acerca de:</h4>
             <p>El ordenamiento por selección es un algoritmo simple utilizado para ordenar elementos en una lista.
-                Funciona encontrando repetidamente el elemento mínimo de la lista y colocándolo al principio. Luego, el
+                Consiste en encontrar repetidamente el elemento mínimo de la lista y colocarlo al principio. Luego, el
                 proceso se repite para el resto de la lista, colocando el siguiente elemento mínimo en la posición
-                adecuada. Este proceso continúa hasta que toda la lista esté ordenada.</p>
+                adecuada. Este proceso continúa hasta que toda la lista esté ordenada. A diferencia del ordenamiento de
+                burbuja, que realiza intercambios adyacentes, el ordenamiento por selección solo realiza intercambios al
+                final de cada pasada.</p>
+            <h4>Autor y año de creación:</h4>
+            <p>El ordenamiento por selección ha existido desde hace mucho tiempo y no tiene un autor específico
+                atribuido a su creación. Se considera uno de los algoritmos de ordenamiento más simples y básicos.</p>
             <h4>Duración:</h4>
-            <p>La complejidad temporal del ordenamiento por selección es de O(n<sup>2</sup>), donde "n" representa el número de
-                elementos en la lista a ordenar. Se requieren n*(n-1)/2 comparaciones y, en el peor caso, n
-                intercambios. Aunque el ordenamiento por selección es fácil de entender e implementar, su rendimiento es
-                inferior a otros algoritmos de ordenamiento más eficientes, como el QuickSort o el MergeSort. Sin
-                embargo, puede ser útil para ordenar listas pequeñas o cuando los intercambios son costosos en términos
-                de tiempo o recursos.</p>
+            <p>La duración del ordenamiento por selección tiene una complejidad temporal de O(n<sup>2</sup>), donde "n"
+                representa el número de elementos en la lista. Se requieren aproximadamente n<sup>2</sup>/2
+                comparaciones y, en el peor caso, n intercambios. Esto significa que su rendimiento es inferior a otros
+                algoritmos de ordenamiento más eficientes, como el QuickSort o el MergeSort. Sin embargo, puede ser útil
+                para ordenar listas pequeñas o cuando los intercambios son costosos en términos de tiempo o recursos.
+            </p>
+            <h4>Eficiencia:</h4>
+            <p>El ordenamiento por selección no es considerado eficiente para listas grandes debido a su complejidad
+                cuadrática. Su eficiencia es inferior a otros algoritmos de ordenamiento más avanzados. Sin embargo, es
+                fácil de entender e implementar, y puede ser útil en situaciones donde la simplicidad es más importante
+                que la eficiencia, o cuando se trabaja con listas pequeñas o casi ordenadas.</p>
             <img class="responsive-img" src="img/selection.png" alt="">
         </div>
     </main>
