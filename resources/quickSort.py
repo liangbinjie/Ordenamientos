@@ -9,6 +9,7 @@ def quickSort(lista):
             if lista[j+1] < pivot:
                 lista[j+1],lista[i+1] = lista[i+1], lista[j+1]
                 i += 1
+                print(lista)
         lista[0],lista[i] = lista[i],lista[0]
         primera = quickSort(lista[:i])
         segunda = quickSort(lista[i+1:])
