@@ -9,6 +9,6 @@ def Busquedasecuencial(lista,num):
 
             else:
                 posicion=posicion+1
-        return encontrado
+        print(encontrado)
     else:
         print("Parametro incorrecto")

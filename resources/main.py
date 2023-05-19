@@ -37,7 +37,7 @@ def menu():
         elif opcion == "3":
             quickSort(lista)
         elif opcion == "4":
-            mergeSort(lista)
+            merge_sort(lista)
         elif opcion == "5":
             ordenShell(lista)
         elif opcion == "6":
@@ -47,9 +47,11 @@ def menu():
         elif opcion == "8":
             shakeSort(lista)
         elif opcion == "9":
-            BusquedaBinaria(lista)
+            num = int(input("Ingrese el numero a buscar: "))
+            BusquedaBinaria(lista, num)
         elif opcion == "10":
-            Busquedasecuencial(lista)
+            num = int(input("Ingrese el numero a buscar"))
+            Busquedasecuencial(lista, num)
         else:
             print("Opcion incorrecta")
 
